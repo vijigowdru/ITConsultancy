@@ -1,0 +1,109 @@
+.secondpage {
+    height: 687px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.container{
+    height: 451px;
+    width: 1100px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.content{
+    /* border: 2px solid red; */
+    height: 451px;
+    width: 550px;
+    line-height: 1.9;
+}
+
+
+.wallpaper{
+    /* border: 1px solid green; */
+    height: 451px;
+    width: 400px;
+    background-image: url("https://mobirise.com/extensions/visionm4/it_consulting/assets/images/02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+
+}
+
+.content h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--darkblue);
+}
+
+.content h1{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 72px;
+}
+
+.content p{
+    font-family: 'Jost', sans-serif;
+    font-size: 20.8px;
+    color: #616161;
+   font-weight: 200;
+   line-height: 1.5;
+}
+
+
+.btn2 >span > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+
+}
+
+.btn2 > span{
+    height: 55px;
+    width: 160px;
+    border: 2px solid black;
+    border-radius: 35px;
+    position:relative ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+
+
+.btn2 div{
+    height: 55px;
+    width: 160px;
+     background-color: var(--lightorange);
+    border-radius: 35px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: -1;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.btn2 > span:hover{
+    border: none;
+}
+
+.btn2>span:hover div{
+    top: 0;
+    left: 0;
+}
+
+.btn2>span:hover a{
+    color: white;
+}
+

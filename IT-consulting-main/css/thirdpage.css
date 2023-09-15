@@ -1,0 +1,113 @@
+.thirdpage{
+    height: 761.5px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1C1C25;
+
+}
+
+
+.thirdpage>.container{
+ 
+    height: 590px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thirdpage .content{
+   
+    text-align: center;
+    width: 720px;
+    height: 250px;
+}
+
+.thirdpage p{
+    color: rgba(255, 255, 255, 0.497);
+}
+
+
+.thirdpage  .content > div >h5 {
+    
+    font-family: 'Jost', sans-serif;
+    font-size: smaller;
+    background-color: #A8AAF1;
+    height: 27px;
+    width: 133px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    margin: auto;
+}
+
+.content > div  h5{
+    text-align: center;
+    font-weight: 100;
+}
+
+h3 strong{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+.thirdpage .boxes{
+  
+    height: 520px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-items{
+    height: 315px;
+    width: 310px;
+ 
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.8;
+    transition-timing-function: ease-in-out;
+    transition-duration:0.2s ;
+}
+
+.box-items:hover{
+    background-color: rgba(255, 255, 255, 0.197);
+    ;
+}
+
+.box-items:hover .cardbox h4 strong{
+    color: #FFB5B5
+}
+
+.imgwrap span i{
+    height: 80px;
+    width: 80px;
+}
+
+h4 strong {
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-size: x-large;
+     transition-timing-function: ease-in-out;
+    transition-duration:0.2s 
+}
+
+.cardbox h5{
+    font-family: 'Jost', sans-serif;
+    color: rgba(255, 255, 255, 0.534);
+    font-weight: 300;
+    font-size: unset;
+}
